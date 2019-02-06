@@ -1,0 +1,7 @@
+C:\Users\miair\source\repos\Lab1t1\Lab1t1\bin\Debug\Lab1t1.exe.config
+C:\Users\miair\source\repos\Lab1t1\Lab1t1\bin\Debug\Lab1t1.exe
+C:\Users\miair\source\repos\Lab1t1\Lab1t1\bin\Debug\Lab1t1.pdb
+C:\Users\miair\source\repos\Lab1t1\Lab1t1\obj\Debug\Lab1t1.csprojAssemblyReference.cache
+C:\Users\miair\source\repos\Lab1t1\Lab1t1\obj\Debug\Lab1t1.csproj.CoreCompileInputs.cache
+C:\Users\miair\source\repos\Lab1t1\Lab1t1\obj\Debug\Lab1t1.exe
+C:\Users\miair\source\repos\Lab1t1\Lab1t1\obj\Debug\Lab1t1.pdb
