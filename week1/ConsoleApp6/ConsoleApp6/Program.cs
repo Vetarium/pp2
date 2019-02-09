@@ -7,22 +7,28 @@ using System.Threading.Tasks;
 namespace ConsoleApp6
 {
     class Program
-    { 
-        
-        
-                
+    {
+
+
         static void Main(string[] args)
         {
             int n = int.Parse(Console.ReadLine());
             string[] str = Console.ReadLine().Split();
-            for (int i=0; i<str.Length; i++)
+            int[] arr = new int[str.Length];
+
+            List<int> numbers = new List<int>();
+            for (int i = 0; i < str.Length; i++)
             {
-                int a = int.Parse(str[i]);
-                for( int j=0; j<2; j++)
-                {
-                    Console.Write(a + " ");
-                }
+
+                numbers.Add(int.Parse(str[i]));
+                numbers.Add(int.Parse(str[i]));
+            }
+            foreach (var x in numbers)
+            {
+                Console.Write(x + " " );
             }
         }
+            
     }
-}
+}   
+

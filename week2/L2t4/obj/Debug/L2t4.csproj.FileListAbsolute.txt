@@ -1,0 +1,7 @@
+C:\Users\miair\source\repos\Lab2t1\L2t4\bin\Debug\L2t4.exe.config
+C:\Users\miair\source\repos\Lab2t1\L2t4\bin\Debug\L2t4.exe
+C:\Users\miair\source\repos\Lab2t1\L2t4\bin\Debug\L2t4.pdb
+C:\Users\miair\source\repos\Lab2t1\L2t4\obj\Debug\L2t4.csprojAssemblyReference.cache
+C:\Users\miair\source\repos\Lab2t1\L2t4\obj\Debug\L2t4.csproj.CoreCompileInputs.cache
+C:\Users\miair\source\repos\Lab2t1\L2t4\obj\Debug\L2t4.exe
+C:\Users\miair\source\repos\Lab2t1\L2t4\obj\Debug\L2t4.pdb

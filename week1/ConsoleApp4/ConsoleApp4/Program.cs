@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp4
 {
-    class Student
+    class Student //create student class
     {
         public string name;
         public string id;
@@ -18,12 +18,16 @@ namespace ConsoleApp4
             id = num;
             year = yr;
         }
-        public void Out(int year)
+        public void Out()
         {
-            Console.WriteLine(name + " " + id + " " +  year+ " ");
+            Console.WriteLine(name + " " + id + " " +  year + " ");
         }
         
-
+        public void Incr()
+        {
+            year++;
+        }
+        
 
     }
 
@@ -36,12 +40,15 @@ namespace ConsoleApp4
             int yr = int.Parse(Console.ReadLine());
 
             Student s1 = new Student(nm, num, yr);
-            for (int i = 0; i< 4; i++)
-            {
-                yr = ++yr;
-                s1.Out(yr);
+            s1.Out();
+            s1.Incr();
+            s1.Out();
+
+
+        
                 
-            }
+                
+            
         }
     }
 }

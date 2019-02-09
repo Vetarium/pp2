@@ -1,0 +1,6 @@
+C:\Users\miair\source\repos\Lab2t1\L2t2\bin\Debug\L2t2.exe.config
+C:\Users\miair\source\repos\Lab2t1\L2t2\bin\Debug\L2t2.exe
+C:\Users\miair\source\repos\Lab2t1\L2t2\bin\Debug\L2t2.pdb
+C:\Users\miair\source\repos\Lab2t1\L2t2\obj\Debug\L2t2.csproj.CoreCompileInputs.cache
+C:\Users\miair\source\repos\Lab2t1\L2t2\obj\Debug\L2t2.exe
+C:\Users\miair\source\repos\Lab2t1\L2t2\obj\Debug\L2t2.pdb
