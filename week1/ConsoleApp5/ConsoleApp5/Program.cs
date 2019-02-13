@@ -10,15 +10,15 @@ namespace ConsoleApp5
     {
         static void Main(string[] args)
         {
-            int n = int.Parse(Console.ReadLine());
-            for (int i = 0; i < n; i++)
+            int n = int.Parse(Console.ReadLine());  // read info about size of triangle
+            for (int i = 0; i < n; i++)                   //create two arrays this is horizontal location 
             {
-                for (int j = 0; j <= i; j++)
+                for (int j = 0; j <= i; j++)             //vertical location
                 {
                     Console.Write("[*]");
 
                 }
-                Console.WriteLine();
+                Console.WriteLine(); 
             } 
         }
     }

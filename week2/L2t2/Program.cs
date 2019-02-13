@@ -9,7 +9,7 @@ namespace L2t2
 {
     class Program
     {
-        static bool Isprim(int a)
+        static bool Isprim(int a)  //function to chech primes
         {
             if (a == 1)
             {
@@ -28,12 +28,12 @@ namespace L2t2
         }
         static void Main(string[] args)
         {
-            FileStream fs = new FileStream(@"C:\testf\text\sample2.txt", FileMode.Open, FileAccess.Read);
-            StreamReader sr = new StreamReader(fs);
+            FileStream fs = new FileStream(@"C:\testf\text\sample2.txt", FileMode.Open, FileAccess.Read); //open file
+            StreamReader sr = new StreamReader(fs); //read info from file
 
            
 
-            string[] str = sr.ReadLine().Split();
+            string[] str = sr.ReadLine().Split(); //take file content to the str 
             sr.Close();
             fs.Close();
             
@@ -41,7 +41,7 @@ namespace L2t2
             int[] ar = new int[str.Length]; 
             for(int i = 0; i<ar.Length; i++)
             {
-                ar[i] = int.Parse(str[i]);
+                ar[i] = int.Parse(str[i]); //check all numbers is it prime 
                 if (Isprim(ar[i]))
                 {
                     res += ar[i];
@@ -50,8 +50,8 @@ namespace L2t2
                 }
             }
 
-            FileStream fs2 = new FileStream(@"C:\testf\text\sample21.txt", FileMode.Open, FileAccess.Write);
-            StreamWriter sw = new StreamWriter(fs2);
+            FileStream fs2 = new FileStream(@"C:\testf\text\sample21.txt", FileMode.Open, FileAccess.Write); //open new file 
+            StreamWriter sw = new StreamWriter(fs2); // write there only primes 
             sw.WriteLine(res);
             sw.Close();
             fs2.Close();

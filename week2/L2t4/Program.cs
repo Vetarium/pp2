@@ -11,16 +11,16 @@ namespace L2t4
     {
         static void Main(string[] args)
         {
-            FileStream fs = new FileStream(@"C:\testf\ds\sample.txt", FileMode.OpenOrCreate, FileAccess.ReadWrite);
-            StreamWriter sw = new StreamWriter(fs);
+            FileStream fs = new FileStream(@"C:\testf\ds\sample.txt", FileMode.OpenOrCreate, FileAccess.ReadWrite); //create file in the directory 
+            StreamWriter sw = new StreamWriter(fs); 
 
             string str = "text for task4";
-            sw.WriteLine(str);
+            sw.WriteLine(str); //write to the file content of string
             sw.Close();
             fs.Close();
 
-            File.Copy(@"C:\testf\ds\sample.txt", @"C:\testf\ds2\copiedsample.txt");
-            File.Delete(@"C:\testf\ds\sample.txt");
+            File.Copy(@"C:\testf\ds\sample.txt", @"C:\testf\ds2\copiedsample.txt"); //copy 1st file to the 2nd directory
+            File.Delete(@"C:\testf\ds\sample.txt"); //delete 1st file 
         }
     }
 }
